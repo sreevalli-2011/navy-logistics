@@ -1,0 +1,102 @@
+/* Section Title */
+.about-caption .section-tittle {
+    margin-bottom: 35px;
+}
+
+.about-caption .section-subtitle {
+    font-size: 18px;
+    color: #ff5f13; /* Adjust subtitle color */
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.about-caption .main-title  {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.5;
+    color: #212529;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    
+}
+
+/* Intro text under the title */
+.about-caption .intro-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Additional paragraph text under the intro */
+.about-caption .additional-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.about-caption .btn {
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: #ff5f13;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.about-caption .btn:hover {
+    background-color: #e14c0e; /* Darker shade on hover */
+}
+
+/* Image styling */
+.about-img .about-font-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-img .about-back-img img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+    .about-caption .section-tittle {
+        text-align: center;
+    }
+
+    .about-caption .section-subtitle,
+    .about-caption .main-title {
+        font-size: 18px;
+    }
+
+    .about-caption .intro-text,
+    .about-caption .additional-text {
+        font-size: 14px;
+    }
+
+    .about-img {
+        margin-top: 20px;
+    }
+}
+.about-low-area .about-caption p {
+    font-size: 16px;
+    color: #64676c;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.about-low-area .about-img .about-font-img {
+    position: absolute;
+    z-index: 1;
+    right: 47px;
+    top: 0px;
+}
+
+

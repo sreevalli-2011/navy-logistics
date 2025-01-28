@@ -1,0 +1,96 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.carousel-item {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 700px; /* Full-screen height */
+  object-fit: cover; /* Ensure image scales properly */
+}
+
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+  max-width: 700px;
+  width: 100%;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-family: "Teko", sans-serif;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  line-height: 95px;
+}
+span{
+  color: #ff7c5c;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.tracking-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tracking-input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 60%;
+}
+
+.tracking-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #1e2a47;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tracking-button:hover {
+  background-color: #ff7c5c;
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .tracking-input {
+    width: 50%;
+  }
+
+  .tracking-form {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

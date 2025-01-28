@@ -1,0 +1,163 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+/* Body styling */
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+     height: auto; /* Let content determine height */
+   overflow-y: auto;
+
+    
+}
+
+/* General Header Styling */
+/* Header Top */
+.header-top {
+    background-color: #1e2a47;
+    color: #ffffff;
+    padding: 10px 0;
+  }
+  .slider-area .hero__caption h1 {
+    font-size: 95px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #fff;
+    line-height: 95px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  .subheding {
+    color: #f15f22;
+}
+
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #1e2a47;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+  }
+  
+  .header-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-top li {
+    font-size: 0.9rem;
+  }
+  
+  .header-social li {
+    display: inline-block;
+  }
+  
+  .header-social a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .header-social a:hover {
+    color: #00aced;
+  }
+  
+  /* Horizontal Line Divider */
+  .header-divider {
+    border: none;
+    height: 1px;
+    background-color: #cccccc;
+    margin: 0;
+  }
+  
+  /* Sticky Navigation */
+  .sticky-nav  {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1e2a47;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ 
+  }
+  
+  .sticky-nav .navbar-brand .logo-img {
+    height: 50px;
+  }
+  
+  .sticky-nav .nav-link {
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+  }
+  
+  .sticky-nav .nav-link:hover {
+    color: #00aced;
+  }
+  .navbar-brand {
+    color: white;  /* Set the title text to white */
+    font-size: 1.5rem; /* Optional: Adjust font size */
+    text-decoration: none;  /* Optional: Remove underline */
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .dropdown-menu {
+    background-color: #1e2a47;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: white;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #00aced;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-top ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-top li {
+      margin-bottom: 5px;
+    }
+  }
+  /* Space between social media icons */
+.header-social li {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between icons */
+  }
+  
+  .header-social li:last-child {
+    margin-right: 0; /* Prevent extra margin on the last icon */
+  }
+  
+  /* Display social media icons horizontally in mobile view */
+  @media (max-width: 768px) {
+    .header-info-right ul {
+      display: flex; /* Align icons horizontally */
+      justify-content: center; /* Center the icons */
+    }
+  
+    .header-social li {
+      margin-right: 15px; /* Add more spacing for better visibility */
+    }
+  }
+  

@@ -1,0 +1,105 @@
+.single-cat {
+    position: relative;
+    border: 1px solid #e1ebf7;
+    border-radius: 6px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.4s ease-out;
+    overflow: hidden;
+    height: 400px; /* Set the height of the container */
+}
+
+.single-cat::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background: #ff5f13;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: height 0.6s ease-in-out;
+    border-radius: 6px;
+}
+
+.single-cat:hover {
+    border-color: transparent; /* Removes border on hover */
+}
+
+.single-cat:hover::before {
+    height: 100%; /* Expands background on hover */
+}
+
+.icon i {
+    font-size: 50px; /* Default icon size */
+    color: #f15f22; /* Default icon color */
+    transition: color 0.3s ease;
+}
+
+.categories-area .single-cat:hover .icon i {
+    color: #fff; /* Icon changes to white on hover */
+}
+
+
+/* Default icon color */
+.categories-area .single-cat .cat-icon span {
+    color: #f15f22; /* Default color */
+    font-size: 50px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+/* Hover effect */
+.categories-area .single-cat:hover .cat-icon span {
+    color: #fff !important; /* Force icon color to white on hover */
+}
+
+/* Optional: Make sure the other styles don't interfere */
+.categories-area .single-cat .cat-icon i {
+    color: #f15f22; /* Ensure icons are colored correctly */
+}
+
+/* Hover icon color change */
+.categories-area .single-cat:hover .cat-icon i {
+    color: #fff !important; /* Ensure icons are white on hover */
+}
+
+.cat-title {
+    
+    font-weight: 700;
+    color: #1c165c;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    display: block;
+    -webkit-transition: all .2s ease-out 0s;
+    -moz-transition: all .2s ease-out 0s;
+    -ms-transition: all .2s ease-out 0s;
+    -o-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+    font-family: "Barlow",sans-serif
+}
+
+.single-cat:hover .cat-title {
+    color: #fff; /* Title changes to white on hover */
+   
+}
+
+.cat-description {
+    color: #57667e;
+    font-size: 16px;
+    margin-bottom: 36px;
+    transition: color 0.3s ease;
+    padding-top: 30px;
+   
+}
+
+.single-cat:hover .cat-description {
+    color: #fff; /* Description changes to white on hover */
+}
+
+
+  
