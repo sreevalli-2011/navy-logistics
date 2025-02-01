@@ -83,7 +83,19 @@
     .about-img {
         margin-top: 20px;
     }
+
+    .about-low-area .about-img .about-font-img {
+        position: static; /* Remove absolute positioning */
+        right: auto;
+        top: auto;
+        margin-top: 20px; /* Add margin for spacing */
+    }
+
+    .about-low-area .about-caption p {
+        padding-right: 0; /* Remove padding for better alignment */
+    }
 }
+
 .about-low-area .about-caption p {
     font-size: 16px;
     color: #64676c;
@@ -92,11 +104,3 @@
     padding-right: 50px;
     text-align: justify;
 }
-.about-low-area .about-img .about-font-img {
-    position: absolute;
-    z-index: 1;
-    right: 47px;
-    top: 0px;
-}
-
-

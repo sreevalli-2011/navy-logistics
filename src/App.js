@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './global-css/global.css'; 
 import Header from './components/Header';
 import BannerCarousel from './components/BannerCarousel';
 import InfoSection from './components/InfoSection';
@@ -10,6 +11,7 @@ import './components/BlogArea';
 import BlogArea from './components/BlogArea';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+
 
 
 

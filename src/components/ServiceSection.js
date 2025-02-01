@@ -19,7 +19,7 @@ const ServicesSection = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="single-cat position-relative">
               <div className="icon mb-4">
-                <i className="fas fa-truck fa-3x text-primary"></i>
+                <i className="fas fa-truck fa-3x"></i>
               </div>
               <h5 className="cat-title">Land Transport</h5>
               <p className="cat-description">
@@ -33,7 +33,7 @@ const ServicesSection = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="single-cat position-relative">
               <div className="icon mb-4">
-                <i className="fas fa-ship fa-3x text-success"></i>
+                <i className="fas fa-ship fa-3x"></i>
               </div>
               <h5 className="cat-title">Ship Transport</h5>
               <p className="cat-description">
@@ -47,7 +47,7 @@ const ServicesSection = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="single-cat position-relative">
               <div className="icon mb-4">
-                <i className="fas fa-plane fa-3x text-danger"></i>
+                <i className="fas fa-plane fa-3x"></i>
               </div>
               <h5 className="cat-title">Air Transport</h5>
               <p className="cat-description">

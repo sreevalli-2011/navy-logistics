@@ -30,39 +30,16 @@
     height: 100%; /* Expands background on hover */
 }
 
-.icon i {
+.single-cat .cat-icon i {
     font-size: 50px; /* Default icon size */
     color: #f15f22; /* Default icon color */
     transition: color 0.3s ease;
 }
 
-.categories-area .single-cat:hover .icon i {
+ .single-cat:hover .icon i {
     color: #fff; /* Icon changes to white on hover */
 }
 
-
-/* Default icon color */
-.categories-area .single-cat .cat-icon span {
-    color: #f15f22; /* Default color */
-    font-size: 50px;
-    margin-bottom: 30px;
-    display: block;
-}
-
-/* Hover effect */
-.categories-area .single-cat:hover .cat-icon span {
-    color: #fff !important; /* Force icon color to white on hover */
-}
-
-/* Optional: Make sure the other styles don't interfere */
-.categories-area .single-cat .cat-icon i {
-    color: #f15f22; /* Ensure icons are colored correctly */
-}
-
-/* Hover icon color change */
-.categories-area .single-cat:hover .cat-icon i {
-    color: #fff !important; /* Ensure icons are white on hover */
-}
 
 .cat-title {
     
