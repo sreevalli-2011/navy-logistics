@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/navy-logistics/static/css/main.e0c10691.css",
-    "main.js": "/navy-logistics/static/js/main.7896e715.js",
+    "main.css": "/navy-logistics/static/css/main.f9a71df8.css",
+    "main.js": "/navy-logistics/static/js/main.66c6d4e3.js",
     "static/js/488.9c92ff38.chunk.js": "/navy-logistics/static/js/488.9c92ff38.chunk.js",
     "static/media/contact.jpg": "/navy-logistics/static/media/contact.ee330379762a357d9064.jpg",
     "static/media/h1_hero.jpg": "/navy-logistics/static/media/h1_hero.a2cd2085db9fb78ceff1.jpg",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/navy-logistics/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/navy-logistics/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/navy-logistics/index.html",
-    "main.e0c10691.css.map": "/navy-logistics/static/css/main.e0c10691.css.map",
-    "main.7896e715.js.map": "/navy-logistics/static/js/main.7896e715.js.map",
+    "main.f9a71df8.css.map": "/navy-logistics/static/css/main.f9a71df8.css.map",
+    "main.66c6d4e3.js.map": "/navy-logistics/static/js/main.66c6d4e3.js.map",
     "488.9c92ff38.chunk.js.map": "/navy-logistics/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0c10691.css",
-    "static/js/main.7896e715.js"
+    "static/css/main.f9a71df8.css",
+    "static/js/main.66c6d4e3.js"
   ]
 }
